@@ -1,0 +1,80 @@
+.gridview__box {
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+  width: 170px;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 23px;
+  transition: transform 450ms;
+}
+
+.gridview__box img {
+  margin-right: 0;
+  margin-bottom: 15px;
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  max-height: 250px;
+}
+
+.gridview__box:hover {
+  transform: scale(1.05);
+}
+
+.gridview__box .poster__readmore {
+  position: absolute;
+  top: 75px;
+  left: 43px;
+}
+
+.gridview__box .rate {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 229px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.gridview__box .rate > span {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-size: 17px;
+}
+
+.gridview__box .fa {
+  color: #e0e010;
+  padding-right: 2px;
+}
+
+.gridview__box h6 {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+
+.gridview__box .date {
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .gridview__box {
+    width: 155px;
+  }
+
+  .gridview__box .rate {
+    top: 204px;
+    right: 1px;
+  }
+
+  .gridview__box .rate > span {
+    font-size: 14px;
+  }
+}

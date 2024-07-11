@@ -1,0 +1,219 @@
+.movie__detail__row {
+  margin-top: 40px;
+  padding: 75px 0;
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+  -moz-animation: fadeIn linear 7s;
+  -o-animation: fadeIn linear 7s;
+  -ms-animation: fadeIn linear 7s;
+}
+
+.movie__detail__row .movie__img {
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+
+.movie__img img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.movie__img .movie__btn {
+  text-align: center;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: #07101a;
+  border: 3px solid #0c1c2c;
+}
+
+.movie__btn .btn__transform {
+  position: relative;
+  display: inline-block;
+  height: 45px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.red {
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.transform__vertical a:hover {
+  text-decoration: none;
+}
+
+.transform__vertical .redbtn {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #abb7c4;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #dd003f;
+  color: #ffffff;
+  padding: 13px 31px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.transform__vertical .yellowbtn {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: #020d18;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #dcf836;
+  padding: 13px 25px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.main__content h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: none;
+  margin-bottom: 25px;
+}
+
+.main__content p {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 24px !important;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.main__content .movie__rate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-top: 1px solid #405266;
+  border-bottom: 1px solid #405266;
+  margin-bottom: 70px;
+}
+
+.movie__rate .rate {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.movie__rate .rate i {
+  font-size: 36px;
+  color: #f5b50a;
+}
+
+.rate p {
+  font-family: 'Nunito', sans-serif;
+  color: #abb7c4;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 24px !important;
+  margin-bottom: 0;
+  margin-left: 10px;
+  font-size: 11px;
+}
+
+.rate p span {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.rate p span.rv {
+  font-size: 12px;
+  color: #4280bf;
+}
+
+.geners {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+  border-left: 1px solid #405266;
+  padding-left: 30px;
+  height: 54px;
+}
+
+.geners {
+  font-size: 15px;
+  color: #abb7c4;
+  margin-right: 15px;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.main__content .nav-link {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+}
+
+.main__content .nav-tabs .nav-link.active {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  background-color: #ffc71f;
+}
+
+.main__content .tab-content {
+  margin-top: 35px;
+}
+
+.main__content .tab-content p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #abb7c4;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 24px !important;
+}
+
+@media (max-width: 480px) {
+  .movie__detail__row {
+    margin: 0 auto;
+  }
+
+  .movie__detail__row .movie__img {
+    margin-right: 0px;
+  }
+
+  .transform__vertical .redbtn {
+    font-size: 12px;
+    padding: 12px 25px;
+  }
+
+  .transform__vertical .yellowbtn {
+    font-size: 12px;
+    padding: 12px 21px;
+  }
+  .main__content h1 {
+    font-size: 32px;
+  }
+  .main__content p {
+    font-size: 13px;
+  }
+  .geners {
+    font-size: 11px;
+  }
+
+  .main__content .nav-link {
+    font-size: 14px;
+  }
+}

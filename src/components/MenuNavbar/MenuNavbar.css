@@ -1,0 +1,54 @@
+.bg-dark {
+  background: #141414;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.nav__transparent {
+  background: #656565 !important;
+  transition-timing-function: ease-in;
+  transition: all 0.9s;
+}
+
+.nav-item a {
+  color: #f8f9fa;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+::placeholder {
+  font-size: 12px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 767px) {
+  .bg-dark {
+    background: #141414;
+  }
+}
+
+@media (max-width: 480px) {
+  .bg-dark {
+    position: static;
+  }
+  .form-inline {
+    position: absolute;
+    padding-top: 10px;
+  }
+
+  .form-inline input {
+    width: 277px;
+  }
+
+  .form-inline button {
+    position: absolute;
+    left: 287px;
+    background: #dc3545;
+  }
+
+  .form-inline i {
+    color: #fff;
+  }
+}

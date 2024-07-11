@@ -1,0 +1,22 @@
+.movie__row {
+  margin-top: 30px;
+}
+
+.movie__row h1 {
+  font-size: 1.777em;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (max-width: 480px) {
+  .movie__row {
+    font-size: 1em;
+    margin-top: 70px;
+  }
+
+  .movie__row h1 {
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}

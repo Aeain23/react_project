@@ -1,0 +1,100 @@
+.topbar__filter {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  border-top: 1px solid #405266;
+  border-bottom: 1px solid #405266;
+  color: #fff;
+}
+
+.topbar__filter p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: none;
+  padding-top: 12px;
+  line-height: 0;
+}
+
+.topbar__filter label,
+.topbar__filter select {
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #abb7c4;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.topbar__filter label {
+  padding-top: 12px;
+  position: relative;
+  left: 150px;
+  color: #fff;
+}
+
+.topbar__filter select {
+  width: 215px;
+  background: #141414;
+  border-left: 1px solid #405266;
+  border-right: 1px solid #405266;
+  border-top: none;
+  border-bottom: none;
+  color: #ffffff;
+  font-weight: 400;
+  padding-left: 22px;
+}
+
+.topbar__filter select:focus-visible {
+  outline: none;
+}
+
+.topbar__filter span {
+  color: #ff0000;
+}
+
+.topbar__filter .list,
+.topbar__filter .grid {
+  font-size: 16px;
+  color: #abb7c4;
+  margin-left: -15px;
+  background: none;
+  border: none;
+}
+
+.topbar__filter .list {
+  border-right: 1px solid #405266;
+  padding-right: 5px;
+}
+
+.topbar__filter .active,
+.topbar__filter i:hover {
+  color: #ff0000;
+}
+
+/* Responsive for mobile */
+@media (max-width: 767px) {
+  .topbar__filter {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .topbar__filter label {
+    position: static;
+  }
+
+  .topbar__filter select {
+    border: 1px solid #405266;
+    padding: 5px;
+    padding-left: 9px;
+  }
+
+  .topbar__filter .list {
+    border: none;
+    padding: 0px;
+  }
+}

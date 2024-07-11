@@ -1,0 +1,17 @@
+.topbar {
+  margin-top: 15px;
+}
+
+.topbar p {
+  font-family: 'Nunito', sans-serif;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: none;
+  padding-top: 12px;
+  line-height: 0;
+}
+
+.topbar span {
+  color: #ff0000;
+}

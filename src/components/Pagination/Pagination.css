@@ -1,0 +1,32 @@
+.pagination__perpage {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+
+.pagination .page-link {
+  font-family: 'Nunito', sans-serif;
+  background-color: #ff0000;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 900;
+}
+
+.pagination .page-link:focus {
+  box-shadow: none;
+}
+
+.page-item.disabled .page-link {
+  color: #fff;
+  pointer-events: none;
+  cursor: auto;
+  background-color: #ff0000;
+}
+
+@media (max-width: 480px) {
+  .pagination__perpage {
+    margin-top: -15px;
+  }
+}

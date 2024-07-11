@@ -1,0 +1,81 @@
+.nowplaying__poster {
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.nowplaying__poster__title {
+  margin-left: 70px;
+  padding-top: 50px;
+  font-weight: 800;
+  font-size: 60px;
+  font-style: italic;
+  background: url('../../img/texure.jpg');
+  background-repeat: repeat-x;
+  background-position: 100% 100%;
+  color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nowplaying__poster > .release_date {
+  margin-left: 70px;
+  padding-top: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  color: #fff;
+}
+
+.nowplaying__poster > .overview {
+  margin-left: 70px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  max-width: 360px;
+}
+
+.nowplaying__poster > .watch__btn {
+  padding-top: 5px;
+  margin-left: 70px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+}
+
+/* Responsive for mobile */
+@media (max-width: 767px) {
+  .nowplaying__poster {
+    height: 300px;
+  }
+
+  .nowplaying__poster__title {
+    margin-left: 20px;
+    padding-top: 30px;
+    font-weight: 800;
+    font-size: 18px;
+  }
+
+  .nowplaying__poster > .release_date {
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 13px;
+  }
+
+  .nowplaying__poster > .overview {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .nowplaying__poster > .watch__btn {
+    padding-top: 5px;
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 11px;
+  }
+}

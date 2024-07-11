@@ -1,0 +1,104 @@
+.footer__container {
+  background-image: url('../../img/footer.jpg');
+  background-position: center;
+}
+
+.footer__box h1 {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+
+.footer__box .term {
+  margin-left: 12px;
+}
+
+.footer__box p {
+  padding-top: 8px;
+  margin-left: 12px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.footer__box .btn {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin-right: 0px;
+  color: var(--iq-white);
+  font-size: 17px;
+  border-radius: 50%;
+  background: rgba(41, 41, 41, 0.76);
+  transition: all 0.4s ease 0s;
+}
+
+.footer__box .facebook:hover {
+  background: #3b5998;
+}
+
+.footer__box .twitter:hover {
+  background: #00acee;
+}
+
+.footer__box .youtube:hover {
+  background: #ff0000;
+}
+
+.footer__box .btn > .fa {
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer__box .apple {
+  margin-left: 30px;
+}
+
+.footer__container .copyright {
+  border-top: 1px solid #405266;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.copyright a {
+  margin-left: 3px;
+  color: #bd2130;
+  font-weight: bold;
+  text-decoration: none;
+  font-style: italic;
+}
+
+/* Responsive for mobile */
+@media (max-width: 767px) {
+  .footer__box {
+    margin-bottom: 10px;
+  }
+
+  .footer__box h1 {
+    font-size: 1em;
+    margin-left: 12px;
+  }
+
+  .footer__box p {
+    font-size: 12px;
+  }
+
+  .footer__box button {
+    margin-left: 10px;
+  }
+
+  .footer__box img {
+    margin-left: 9px;
+  }
+
+  .footer__box .apple {
+    margin-left: 20px;
+  }
+
+  .footer__container .copyright {
+    font-size: 12px;
+  }
+}

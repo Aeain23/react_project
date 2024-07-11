@@ -1,0 +1,13 @@
+.flex-wrap-movielist {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: inherit;
+  margin-right: -30px;
+  animation: fadeIn linear 7s;
+  -webkit-animation: fadeIn linear 7s;
+}
