@@ -41,7 +41,7 @@ const Footer = () => {
           target='_blank'
           rel='noreferrer'
         >
-          Htet Oo Zin.
+          A Eain.
         </a>
       </p>
     </footer>
