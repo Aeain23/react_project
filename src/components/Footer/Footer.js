@@ -37,7 +37,7 @@ const Footer = () => {
       <p className='copyright'>
         © 2021 Movie App. All Rights Reserved. Developed by
         <a
-          href='https://www.facebook.com/htetoo.zin09'
+          href='https://www.facebook.com'
           target='_blank'
           rel='noreferrer'
         >

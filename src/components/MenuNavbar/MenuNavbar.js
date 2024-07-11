@@ -66,3 +66,4 @@ const MenuNavbar = () => {
 };
 
 export default withRouter(MenuNavbar);
+// eslint-disable-next-line
